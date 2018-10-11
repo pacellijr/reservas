@@ -17,7 +17,18 @@ body {
   width: 16px;
   height: 16px;
   vertical-align: text-bottom;
+
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+
 }
+
+
+
+
 
 /*
  * Content
