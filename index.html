@@ -12,27 +12,19 @@
     <link rel="stylesheet" href="css/style.css">
 
     <title>RESERVAS</title>
+    <script src="js/ajax-utils.js"></script>
+    <script src="js/spa.js"></script>
 </head>
         
 <body>
     <!-- Menu Superior-->
-    <div w3-include-html="menus/navbar.html"></div> 
+    <div id="navbar"></div>
     
     <!-- Menu Lateral-->
-    <div w3-include-html="menus/sidebar.html"></div> 
-        
-    <!-- Área Central-->
-    <div w3-include-html="main.html"></div>       
+    <div id="sidebar"></div>
 
-    <!-- Icons-->
-    <script src="js/feather.min.js"></script>
-  
-    <!-- HTML replacement -->
-    <script src="js/script.js"></script>
-	
-    <script type="text/javascript">
-        includeHTML();
-    </script>
+    <!-- Área Central-->
+    <div id="main"></div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
